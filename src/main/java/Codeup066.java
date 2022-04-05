@@ -7,6 +7,7 @@ public class Codeup066 {
         int a = sc.nextInt();
         int b = sc.nextInt();
         int c = sc.nextInt();
+        int[] arr = new int[10];
 
         if (a % 2 ==0)
             System.out.println("even");
