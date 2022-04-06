@@ -4,7 +4,7 @@ public class test008 {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
-        for (int a = 0 ; a <10 ; a++)
+        for (int a = 0 ; a <10 ; a++);
 
 
 
