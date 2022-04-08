@@ -1,31 +1,24 @@
 import java.util.Scanner;
 
-public class test008 {
+public class Test008 {
+
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
-        for (int a = 0 ; a <10 ; a++);
 
+        int a;
 
+        System.out.println("정수를 입력하시오");
+        a = sc.nextInt();
 
-            // 입력 : 10단
-            // 10X1
-            // 10X2
-            //
-            // 입력 : 6단
-            // 6X1
-            // 6X2
-            // 6X3
-            //
+        if( a % 2 ==0)
+        {
+            System.out.println("짝수입니다"); }
 
+        else
+            {
+                System.out.println("홀수입니다");
+            }
 
     }
-
-
-
-
-
-
 }
-
-

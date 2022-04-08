@@ -1,31 +1,30 @@
+import javax.xml.bind.SchemaOutputResolver;
 import java.util.Scanner;
 
-public class test009 {
-
+public class Test009 {
     public static void main(String[] args) {
+        Scanner s = new Scanner(System.in);
 
-        Scanner sc = new Scanner(System.in);
+        System.out.println("점수를 입력하시오");
+        int a = s.nextInt();
 
+        if (a >= 90) {
+            System.out.println("A");}
 
-        System.out.printf("1 ~ 4중에 선택하세요 :");
-        int a = sc.nextInt();
-
-        if (a > 0 && a < 5) ;
         else
-            System.out.println("이상한거를 선택했다");
+            if (a >= 80) {
+                System.out.println("B");
+            }
+            else
+                if ( a >= 70)
+                {
+                    System.out.println("C");}
+                    else
+                        if ( a >= 60)
+                        { System.out.println("D");}
 
 
-        if (a == 1)
-            System.out.println(" 1입니다");
 
-
-        if (a == 2)
-            System.out.println(" 2입니다");
-
-        if (a == 3)
-            System.out.println(" 3입니다");
-
-        if (a == 4)
-            System.out.println(" 4입니다");
     }
 }
+// 복습
