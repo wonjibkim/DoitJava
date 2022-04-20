@@ -21,7 +21,7 @@ public class Ex05_08 {
                 if (a>=70)
                     System.out.printf("C");
                 else
-                    if(a >=70)
+                    if(a >=60)
                         System.out.printf("D");
                     else
                         System.out.printf("F");
