@@ -1,14 +1,22 @@
-public class BB {
-    public static void main(String[] args) {
+import java.util.List;
+/*
 
-        for (int i =1; i<6; i++)// 1부터 6까지 증가하는 for문을 사용하여 요구조건 5행을 충족 시킴
-        {
-            for (int j =1; j<=i ; j++){
-                System.out.printf("*");            }
-            System.out.println("");
+public class BB {
+    Public static void main(String [] args){
+
+        List<String> list = new A<>();
+
+        list.add ("이협건");
+        list.add("김원집);
+
+
+        int list =list.size;
+
+        for(int i=0; i<list ; i++){
+
+            system.out.println("이름":+list.get(i));
+
         }
 
-
-
     }
-}
+*/
