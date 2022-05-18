@@ -1,4 +1,4 @@
-import java.util.ArrayList;
+/*import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -19,7 +19,7 @@ public class Test007 {
 
         map = null;
 
-        map = new HashMap<>();
+      map = new HashMap<>();
 
         map.put("name", "홍길동");
         map.put("email", "kbg6912@naver.com");
@@ -36,7 +36,20 @@ public class Test007 {
             System.out.println("addr : " + rMap.get("addr"));
             System.out.println("dept : " + rMap.get("dept"));
 
+            for(Map<String,String> rMap : list){
+                System.out.println("name : " + rMap.get("name"));
+                System.out.println("email : " + rMap.get("email"));
+                System.out.println("addr : " + rMap.get("addr"));
+                System.out.println("dept : " + rMap.get("dept"));
+            }
+
+            list.forEach(rMap-> (){
+                System.out.println("name : " + rMap.get("name"));
+                System.out.println("email : " + rMap.get("email"));
+                System.out.println("addr : " + rMap.get("addr"));
+                System.out.println("dept : " + rMap.get("dept"));
+            });
 
         }
     }
-}
+}*/
