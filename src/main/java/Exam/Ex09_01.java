@@ -11,12 +11,12 @@ public class Ex09_01 {
         System.out.printf("문자열의 길이 : %d",len);
 
 
-        // length는 값의 존재 여부를 확인할 떄 아래와 같이 사용
+       /* // length는 값의 존재 여부를 확인할 떄 아래와 같이 사용
         if(str.length() > 0){S
             System.out.println("str변수에 값이 존재한다");
         } else {
             System.out.println("str변수에 값이 존재하지 않는다");
-        }
+        }*/
 
     }
 }
