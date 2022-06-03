@@ -1,3 +1,4 @@
+/*
 public class pro {
     public static void main(String[] args) {
         Map<String,Integer> map1=new HashMap<>();
@@ -24,3 +25,4 @@ public class pro {
 
     }
 }
+*/
