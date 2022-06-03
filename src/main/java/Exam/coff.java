@@ -1,4 +1,4 @@
-package Exam;
+/*package Exam;
 
 import java.util.Scanner;
 
@@ -49,4 +49,4 @@ public class coff {
 
     }
 
-}
+}*/
