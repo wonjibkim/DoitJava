@@ -1,4 +1,4 @@
-public class ex10_03 {
+/*public class ex10_03 {
     public static void main(String[] args) {
         int a = 100, b=0;+
         int result;
@@ -9,4 +9,4 @@ public class ex10_03 {
             System.out.println(e);
         }
     }
-}
+}*/
